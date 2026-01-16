@@ -6,37 +6,37 @@ import { Star } from "lucide-react"
 const testimonials = [
   {
     name: "María González",
-    country: "Venezuela",
+    country: "",
     rating: 5,
     text: "Es un servicio muy cómodo. Me hacen sentir como parte de la familia. Todo fue súper rápido y profesional.",
   },
   {
     name: "Carlos Rodríguez",
-    country: "Colombia",
+    country: "",
     rating: 5,
     text: "Todo lo que dicen lo cumplen. Sin cargos ocultos, sin sorpresas. Totalmente recomendado.",
   },
   {
     name: "Sofía Martínez",
-    country: "Argentina",
+    country: "",
     rating: 5,
     text: "Te esperan en la puerta con tu carro del año. El servicio es impecable y muy conveniente.",
   },
   {
     name: "Juan Pérez",
-    country: "México",
+    country: "",
     rating: 5,
     text: "Son súper de confianza. Puedes llegar a cualquier hora y siempre van a estar ahí para ayudarte.",
   },
   {
     name: "Ana Silva",
-    country: "Perú",
+    country: "",
     rating: 5,
     text: "Fue una atención ejemplar. Te acompañan en todo momento durante el proceso.",
   },
   {
     name: "Roberto López",
-    country: "España",
+    country: "",
     rating: 5,
     text: "Viajar así es muchísimo más cómodo. Te ahorras mucho tiempo después de un largo viaje.",
   },
