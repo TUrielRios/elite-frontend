@@ -25,7 +25,7 @@ export function CTASection() {
           <Button size="lg" variant="secondary" className="w-full sm:w-auto" onClick={scrollToBooking}>
             Obtener Cotización Gratis
           </Button>
-          <a href="tel:+17863056464" className="w-full sm:w-auto">
+          <a href="https://wa.me/17863056464" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button
               size="lg"
               variant="outline"

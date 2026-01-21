@@ -76,7 +76,7 @@ export function Header() {
 
           {/* CTA Buttons */}
           <div className="flex items-center gap-3">
-            <a href="tel:+19545580614" className="hidden md:flex">
+            <a href="https://wa.me/19545580614" target="_blank" rel="noopener noreferrer" className="hidden md:flex">
               <Button variant="outline" size="sm" className="gap-2 bg-transparent">
                 <Phone className="h-4 w-4" />
                 +1 (954) 558-0614
@@ -129,7 +129,7 @@ export function Header() {
             >
               Contacto
             </button>
-            <a href="tel:+19545580614" className="pt-2">
+            <a href="https://wa.me/19545580614" target="_blank" rel="noopener noreferrer" className="pt-2">
               <Button variant="outline" size="sm" className="w-full gap-2 bg-transparent">
                 <Phone className="h-4 w-4" />
                 +1 (954) 558-0614
