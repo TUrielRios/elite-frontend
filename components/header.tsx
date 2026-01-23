@@ -37,7 +37,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Image
-              src="/elite-logo.png"
+              src="/logo.png"
               alt="Elite Rent A Car Miami"
               width={180}
               height={60}

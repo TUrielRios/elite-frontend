@@ -11,7 +11,7 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="lg:col-span-2">
             <Image
-              src="/elite-logo.png"
+              src="/logo.png"
               alt="Elite Rent A Car Miami"
               width={200}
               height={70}
