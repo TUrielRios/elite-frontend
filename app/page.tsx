@@ -1,6 +1,6 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
-import { BookingForm } from "@/components/booking-form"
+import { HQBookingWidget } from "@/components/hq-booking-widget"
 import { ServicesSection } from "@/components/services-section"
 import { FleetSection } from "@/components/fleet-section"
 import { ProcessSection } from "@/components/process-section"
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        <BookingForm />
+        <HQBookingWidget />
         <ServicesSection />
         <FleetSection />
         <ProcessSection />
