@@ -5,8 +5,8 @@
 
 :root {
   /* Brand colors - Elite Car Rental */
-  --brand-pink: #ffcddc;
-  --brand-blue: #1d77ef;
+  --brand-pink: #ffe5ea;
+  --brand-blue: #1b92df;
   --brand-black: #000000;
 
   /* Light theme */
@@ -16,33 +16,33 @@
   --card-foreground: oklch(0.1 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.1 0 0);
-  --primary: oklch(0.92 0.08 340);
-  /* Pink #ffcddc as Primary */
+  --primary: oklch(0.95 0.04 340);
+  /* Pink #ffe5ea as Primary */
   --primary-foreground: oklch(0.1 0 0);
   /* Dark text for light pink */
-  --secondary: oklch(0.6 0.2 250);
-  /* Blue accent */
+  --secondary: oklch(0.58 0.18 250);
+  /* Blue #1b92df accent */
   --secondary-foreground: oklch(1 0 0);
   /* White text for blue */
   --muted: oklch(0.96 0.01 330);
   --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.6 0.2 250);
-  /* Blue */
+  --accent: oklch(0.58 0.18 250);
+  /* Blue #1b92df */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.92 0.01 330);
   --input: oklch(0.92 0.01 330);
-  --ring: oklch(0.92 0.08 340);
-  --chart-1: oklch(0.92 0.08 340);
-  --chart-2: oklch(0.6 0.2 250);
+  --ring: oklch(0.95 0.04 340);
+  --chart-1: oklch(0.95 0.04 340);
+  --chart-2: oklch(0.58 0.18 250);
   --chart-3: oklch(0.1 0 0);
   --chart-4: oklch(0.5 0.1 340);
   --chart-5: oklch(0.7 0.15 250);
   --radius: 0.75rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.92 0.08 340);
+  --sidebar-primary: oklch(0.95 0.04 340);
   --sidebar-primary-foreground: oklch(0.1 0 0);
   --sidebar-accent: oklch(0.97 0 0);
   --sidebar-accent-foreground: oklch(0.205 0 0);
@@ -59,27 +59,27 @@
   --card-foreground: oklch(0.98 0.005 330);
   --popover: oklch(0.10 0 0);
   --popover-foreground: oklch(0.98 0.005 330);
-  --primary: oklch(0.88 0.12 340);
-  /* Pink #ffcddc as Primary */
+  --primary: oklch(0.92 0.06 340);
+  /* Pink #ffe5ea as Primary */
   --primary-foreground: oklch(0.05 0 0);
   /* Dark text for light pink */
-  --secondary: oklch(0.65 0.22 250);
-  /* Blue accent */
+  --secondary: oklch(0.62 0.20 250);
+  /* Blue #1b92df accent */
   --secondary-foreground: oklch(1 0 0);
   /* White text */
   --muted: oklch(0.16 0.01 330);
   --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.65 0.22 250);
-  /* Blue */
+  --accent: oklch(0.62 0.20 250);
+  /* Blue #1b92df */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.55 0.25 27);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.20 0.01 330);
   --input: oklch(0.20 0.01 330);
-  --ring: oklch(0.88 0.12 340);
+  --ring: oklch(0.92 0.06 340);
   --sidebar: oklch(0.08 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.88 0.12 340);
+  --sidebar-primary: oklch(0.92 0.06 340);
   --sidebar-primary-foreground: oklch(0.05 0 0);
   --sidebar-accent: oklch(0.15 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);
@@ -169,11 +169,11 @@
 
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(255, 205, 220, 0.3);
+    box-shadow: 0 0 20px rgba(255, 229, 234, 0.3);
   }
 
   50% {
-    box-shadow: 0 0 30px rgba(255, 205, 220, 0.6);
+    box-shadow: 0 0 30px rgba(255, 229, 234, 0.6);
   }
 }
 
@@ -205,7 +205,7 @@
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #ffcddc 0%, #1d77ef 100%);
+  background: linear-gradient(135deg, #ffe5ea 0%, #1b92df 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

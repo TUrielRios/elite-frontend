@@ -8,7 +8,7 @@ import { ArrowRight, CheckCircle } from "lucide-react"
 const destinations = [
   { src: "/miami-1.jpg", alt: "Paseo junto al agua en Miami con palmeras" },
   { src: "/miami-2.jpg", alt: "Hotel InterContinental en Miami" },
-  { src: "/miami-3.jpg", alt: "The Mall at Millenia en Orlando" },
+  { src: "/orlando-theme-park.jpg", alt: "Parque temático en Orlando" },
 ]
 
 export function HeroSection() {
