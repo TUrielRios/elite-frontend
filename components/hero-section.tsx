@@ -44,7 +44,7 @@ export function HeroSection() {
               src={destination.src}
               alt={destination.alt}
               fill
-              className="object-fit"
+              className="object-cover"
               priority={index === 0}
             />
             {/* Dark Overlay for text readability */}
