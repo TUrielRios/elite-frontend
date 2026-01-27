@@ -32,7 +32,7 @@ export function CTASection() {
               className="w-full border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary"
             >
               <Phone className="mr-2 h-5 w-5" />
-              +1 (786) 305-6464
+              +1 (954) 558-0614
             </Button>
           </a>
         </div>
