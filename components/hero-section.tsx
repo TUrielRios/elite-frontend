@@ -9,6 +9,8 @@ const destinations = [
   { src: "/miami-1.jpg", alt: "Paseo junto al agua en Miami con palmeras" },
   { src: "/miami-2.jpg", alt: "Hotel InterContinental en Miami" },
   { src: "/orlando-theme-park.jpg", alt: "Parque temático en Orlando" },
+  { src: "/universal-studios.png", alt: "Universal Studios Orlando" },
+  { src: "/disney-castle.png", alt: "Castillo de Disney en Orlando" },
 ]
 
 export function HeroSection() {
@@ -31,7 +33,7 @@ export function HeroSection() {
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden pt-20 md:pt-32">
       {/* Background Images Slider */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         {destinations.map((destination, index) => (
           <div
             key={index}
@@ -42,11 +44,11 @@ export function HeroSection() {
               src={destination.src}
               alt={destination.alt}
               fill
-              className="object-cover"
+              className="object-fit"
               priority={index === 0}
             />
             {/* Dark Overlay for text readability */}
-            <div className="absolute inset-0 bg-black/50" />
+            <div className="absolute inset-0 bg-black/40" />
           </div>
         ))}
       </div>

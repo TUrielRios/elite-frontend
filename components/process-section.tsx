@@ -11,7 +11,7 @@ const steps = [
     number: "02",
     icon: FileSignature,
     title: "Firmas",
-    description: "Ya todo está listo. Encontrarás el contrato impreso con la tarifa cotizada, solo debes firmar.",
+    description: "Ya todo está listo. Encontrarás el contrato en tu email con la tarifa cotizada, solo debes firmar.",
   },
   {
     number: "03",

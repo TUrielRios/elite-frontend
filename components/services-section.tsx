@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { Plane, MapPin, Shield, Wifi, Clock, Award } from "lucide-react"
+import { Plane, MapPin, Shield, Smartphone, Clock, Award } from "lucide-react"
 
 const services = [
   {
@@ -18,9 +18,9 @@ const services = [
     description: "Transparencia total. Solo pagas lo cotizado, sin sorpresas desagradables.",
   },
   {
-    icon: Wifi,
-    title: "WiFi Incluido",
-    description: "Mantente conectado durante tu viaje. WiFi gratis en toda nuestra flota.",
+    icon: Smartphone,
+    title: "Apple CarPlay & Android Auto",
+    description: "Todos nuestros vehículos incluyen Apple CarPlay y Android Auto para tu comodidad.",
   },
   {
     icon: Clock,
