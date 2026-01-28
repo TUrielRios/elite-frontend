@@ -57,7 +57,7 @@ export function HeroSection() {
         <div className="mx-auto flex flex-1 flex-col justify-center">
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-6 inline-block rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm border border-white/20">
-              🚗 Servicio Premium en Miami
+              🚗 Servicio Premium en Florida
             </div>
 
             <h1 className="mb-6 text-balance text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl lg:text-7xl">

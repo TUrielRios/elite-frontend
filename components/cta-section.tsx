@@ -15,7 +15,7 @@ export function CTASection() {
     <section className="bg-primary py-16 md:py-24">
       <div className="container mx-auto px-4 text-center">
         <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-secondary md:text-4xl">
-          ¿Listo Para Tu Aventura en Miami?
+          ¿Listo Para Tu Aventura en Florida?
         </h2>
         <p className="mx-auto mb-8 max-w-2xl text-balance text-lg text-muted-foreground">
           Reserva ahora y disfruta de un servicio premium desde el momento en que aterrices. Sin filas, sin esperas, sin
