@@ -24,7 +24,7 @@ export function CTASection() {
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
             size="lg"
-            className="w-full bg-white hover:bg-white/90 text-secondary font-bold shadow-xl hover:scale-105 transition-all sm:w-auto"
+            className="w-full bg-primary border-black hover:bg-white/90 text-secondary font-bold shadow-xl hover:scale-105 transition-all sm:w-auto"
             onClick={scrollToBooking}
           >
             Obtener Cotización Gratis

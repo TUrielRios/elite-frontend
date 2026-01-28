@@ -71,7 +71,7 @@ export function HeroSection() {
             <div className="mb-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button
                 size="lg"
-                className="w-full bg-white hover:bg-primary/80 text-secondary font-bold shadow-xl hover:shadow-primary/50 hover:scale-105 transition-all sm:w-auto"
+                className="w-full bg-primary hover:bg-primary/80 text-secondary font-bold shadow-xl hover:shadow-primary/50 hover:scale-105 transition-all sm:w-auto"
                 onClick={scrollToBooking}
               >
                 Cotizar Ahora
