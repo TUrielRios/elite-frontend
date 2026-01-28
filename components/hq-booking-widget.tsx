@@ -15,11 +15,11 @@ export function HQBookingWidget() {
   `
 
     return (
-        <section id="booking" className="py-16 md:py-24">
+        <section id="booking" className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-4">
                 <div className="mx-auto max-w-6xl">
                     <div className="mb-12 text-center">
-                        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+                        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl text-secondary">
                             Reserva Tu Auto
                         </h2>
                         <p className="text-lg text-muted-foreground">

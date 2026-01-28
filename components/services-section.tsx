@@ -36,10 +36,10 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section id="services" className="py-16 md:py-24">
+    <section id="services" className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">¿Por Qué Elegir Elite?</h2>
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl text-secondary">¿Por Qué Elegir Elite?</h2>
           <p className="mx-auto max-w-2xl text-balance text-lg text-muted-foreground">
             Ofrecemos un servicio premium diseñado para tu comodidad y tranquilidad
           </p>
@@ -49,11 +49,11 @@ export function ServicesSection() {
           {services.map((service, index) => {
             const Icon = service.icon
             return (
-              <Card key={index} className="p-6 transition-all hover:shadow-lg">
-                <div className="mb-4 inline-flex rounded-lg bg-primary/10 p-3">
-                  <Icon className="h-6 w-6 text-primary" />
+              <Card key={index} className="p-6 transition-all hover:shadow-lg bg-primary">
+                <div className="mb-4 inline-flex rounded-lg bg-transparent p-3">
+                  <Icon className="h-6 w-6 text-secondary" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{service.title}</h3>
+                <h3 className="mb-2 text-xl font-semibold text-secondary">{service.title}</h3>
                 <p className="text-pretty text-muted-foreground">{service.description}</p>
               </Card>
             )

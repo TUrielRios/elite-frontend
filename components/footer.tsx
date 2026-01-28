@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-    <footer id="contact" className="border-t bg-muted/50">
+    <footer id="contact" className="border-t bg-primary">
       <div className="container mx-auto px-4 py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Logo & Description */}
@@ -25,7 +25,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-4 font-semibold">Enlaces Rápidos</h3>
+            <h3 className="mb-4 font-semibold text-secondary">Enlaces Rápidos</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <button
@@ -76,23 +76,23 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="mb-4 font-semibold">Contacto</h3>
+            <h3 className="mb-4 font-semibold text-secondary">Contacto</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
-                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
                 <a href="https://wa.me/19545580614" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
                   +1 (954) 558-0614
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
                 <a href="mailto:info@eliterentmiami.com" className="hover:text-primary">
                   info@eliterentmiami.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <span>Miami, FL 33142</span>
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+                <span>3990 NW 26th Street Miami Fl</span>
               </li>
             </ul>
           </div>

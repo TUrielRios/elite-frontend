@@ -44,10 +44,10 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section id="testimonials" className="py-16 md:py-24">
+    <section id="testimonials" className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">Lo Que Dicen Nuestros Clientes</h2>
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl text-secondary">Lo Que Dicen Nuestros Clientes</h2>
           <p className="mx-auto max-w-2xl text-balance text-lg text-muted-foreground">
             Miles de clientes satisfechos confían en Elite Rent A Car
           </p>
@@ -55,15 +55,15 @@ export function TestimonialsSection() {
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-6">
+            <Card key={index} className="p-6 bg-primary">
               <div className="mb-4 flex items-center gap-1">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-primary text-primary" />
+                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
                 ))}
               </div>
-              <p className="mb-4 text-pretty italic text-foreground">&ldquo;{testimonial.text}&rdquo;</p>
+              <p className="mb-4 text-pretty italic text-secondary">&ldquo;{testimonial.text}&rdquo;</p>
               <div className="border-t pt-4">
-                <p className="font-semibold">{testimonial.name}</p>
+                <p className="font-semibold text-secondary">{testimonial.name}</p>
                 <p className="text-sm text-muted-foreground">{testimonial.country}</p>
               </div>
             </Card>

@@ -55,11 +55,11 @@ export function BookingForm() {
   }
 
   return (
-    <section id="booking" className="py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        <div className="mx-auto max-w-4xl">
-          <div className="mb-12 text-center">
-            <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">Reserva Tu Auto</h2>
+    <section id="booking" className="py-16 md:py-24 bg-white">
+      <div className="container mx-auto px-4 bg-white">
+        <div className="mx-auto max-w-4xl bg-white">
+          <div className="mb-12 text-center bg-primary">
+            <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl text-black">Reserva Tu Auto</h2>
             <p className="text-lg text-muted-foreground">
               Completa el formulario y recibe una cotización personalizada
             </p>

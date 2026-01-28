@@ -11,7 +11,7 @@ const steps = [
     number: "02",
     icon: FileSignature,
     title: "Firmas",
-    description: "Ya todo está listo. Encontrarás el contrato en tu email con la tarifa cotizada, solo debes firmar.",
+    description: "Ya todo está listo. Encontrarás el contrato en tu correo con la tarifa cotizada, solo debes firmar.",
   },
   {
     number: "03",
@@ -23,11 +23,11 @@ const steps = [
 
 export function ProcessSection() {
   return (
-    <section className="bg-foreground py-16 text-background md:py-24">
+    <section className="bg-primary py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">Rentar Con Elite Es Muy Fácil</h2>
-          <p className="mx-auto max-w-2xl text-balance text-lg text-background/80">
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl text-secondary">Rentar Con Elite Es Muy Fácil</h2>
+          <p className="mx-auto max-w-2xl text-balance text-lg text-muted-foreground">
             Tres simples pasos para comenzar tu aventura
           </p>
         </div>
@@ -37,13 +37,13 @@ export function ProcessSection() {
             const Icon = step.icon
             return (
               <div key={index} className="relative text-center">
-                <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-full bg-white text-accent">
                   <Icon className="h-10 w-10" />
                 </div>
-                <div className="absolute left-1/2 top-10 -z-10 hidden h-px w-full -translate-x-1/2 bg-background/20 md:block" />
-                <div className="mb-2 text-4xl font-bold text-background/40">{step.number}</div>
-                <h3 className="mb-3 text-2xl font-semibold">{step.title}</h3>
-                <p className="text-pretty text-background/80">{step.description}</p>
+                <div className="absolute left-1/2 top-10 -z-10 hidden h-px w-full -translate-x-1/2 bg-border md:block" />
+                <div className="mb-2 text-4xl font-bold text-secondary">{step.number}</div>
+                <h3 className="mb-3 text-2xl font-semibold text-secondary">{step.title}</h3>
+                <p className="text-pretty text-secondary">{step.description}</p>
               </div>
             )
           })}

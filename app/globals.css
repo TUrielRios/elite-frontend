@@ -6,8 +6,8 @@
 :root {
   /* Brand colors - Elite Car Rental */
   --brand-pink: #ffe5ea;
-  --brand-blue: #1b92df;
-  --brand-black: #000000;
+  --brand-blue: #1d92df;
+  --brand-white: #ffffff;
 
   /* Light theme */
   --background: oklch(0.99 0.005 330);
@@ -18,16 +18,16 @@
   --popover-foreground: oklch(0.1 0 0);
   --primary: oklch(0.95 0.04 340);
   /* Pink #ffe5ea as Primary */
-  --primary-foreground: oklch(0.1 0 0);
-  /* Dark text for light pink */
+  --primary-foreground: oklch(0.58 0.18 250);
+  /* Blue text for pink buttons */
   --secondary: oklch(0.58 0.18 250);
-  /* Blue #1b92df accent */
+  /* Blue #1d92df accent */
   --secondary-foreground: oklch(1 0 0);
   /* White text for blue */
   --muted: oklch(0.96 0.01 330);
   --muted-foreground: oklch(0.5 0 0);
   --accent: oklch(0.58 0.18 250);
-  /* Blue #1b92df */
+  /* Blue #1d92df */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
@@ -64,13 +64,13 @@
   --primary-foreground: oklch(0.05 0 0);
   /* Dark text for light pink */
   --secondary: oklch(0.62 0.20 250);
-  /* Blue #1b92df accent */
+  /* Blue #1d92df accent */
   --secondary-foreground: oklch(1 0 0);
   /* White text */
   --muted: oklch(0.16 0.01 330);
   --muted-foreground: oklch(0.65 0 0);
   --accent: oklch(0.62 0.20 250);
-  /* Blue #1b92df */
+  /* Blue #1d92df */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.55 0.25 27);
   --destructive-foreground: oklch(1 0 0);
@@ -205,7 +205,7 @@
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #ffe5ea 0%, #1b92df 100%);
+  background: linear-gradient(135deg, #ffe5ea 0%, #1d92df 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -47,8 +47,8 @@ export function HeroSection() {
               className="object-cover"
               priority={index === 0}
             />
-            {/* Dark Overlay for text readability */}
-            <div className="absolute inset-0 bg-black/40" />
+            {/* Light Overlay for text readability */}
+            <div className="absolute inset-0 bg-black/20" />
           </div>
         ))}
       </div>
@@ -61,7 +61,7 @@ export function HeroSection() {
             </div>
 
             <h1 className="mb-6 text-balance text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl lg:text-7xl">
-              Vive Miami. <span className="text-white-foreground">Viaja Premium.</span>
+              Vive Florida <br /> <span className="text-white-foreground">Viaja Premium</span>
             </h1>
 
             <p className="mb-8 text-pretty text-lg text-gray-200 md:text-xl">
@@ -71,14 +71,14 @@ export function HeroSection() {
             <div className="mb-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button
                 size="lg"
-                className="w-full bg-primary text-white hover:bg-primary/90 sm:w-auto"
+                className="w-full bg-white hover:bg-primary/80 text-secondary font-bold shadow-xl hover:shadow-primary/50 hover:scale-105 transition-all sm:w-auto"
                 onClick={scrollToBooking}
               >
                 Cotizar Ahora
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <a href="https://wa.me/19545580614" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-                <Button size="lg" variant="outline" className="w-full bg-white/10 text-white border-white/30 hover:bg-white/20 hover:text-white backdrop-blur-sm">
+                <Button size="lg" className="w-full bg-secondary hover:bg-secondary/80 text-white font-bold shadow-xl hover:shadow-secondary/50 hover:scale-105 transition-all">
                   WhatsApp
                 </Button>
               </a>

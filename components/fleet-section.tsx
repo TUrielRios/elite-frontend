@@ -38,10 +38,10 @@ export function FleetSection() {
   }
 
   return (
-    <section id="fleet" className="bg-primary/5 py-16 md:py-24">
+    <section id="fleet" className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">Nuestros Vehículos</h2>
+          <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl text-secondary">Nuestros Vehículos</h2>
           <p className="mx-auto max-w-2xl text-balance text-lg text-muted-foreground">
             Vehículos modernos y bien mantenidos para cada necesidad
           </p>
@@ -85,36 +85,36 @@ export function FleetSection() {
 
         {/* Vehicles Grid */}
         {!loading && !error && vehicles.length > 0 && (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 bg-transparent">
             {vehicles.map((car) => (
-              <Card key={car.id} className="overflow-hidden transition-all hover:shadow-lg">
-                <div className="aspect-video w-full overflow-hidden bg-muted">
+              <Card key={car.id} className="overflow-hidden transition-all hover:shadow-lg bg-transparent">
+                <div className="aspect-video w-full overflow-hidden bg-transparent">
                   <img
                     src={getImageUrl(car.image_url)}
                     alt={car.name}
-                    className="h-full w-full object-cover transition-transform hover:scale-105"
+                    className="h-full w-full object-contain transition-transform hover:scale-105"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="mb-4 text-xl font-semibold">{car.name}</h3>
+                <div className="p-6 bg-white">
+                  <h3 className="mb-4 text-xl font-semibold text-secondary">{car.name}</h3>
 
                   <div className="mb-4 flex items-center gap-4 text-sm text-muted-foreground">
                     <div className="flex items-center gap-1">
-                      <Users className="h-4 w-4" />
-                      <span>{car.passengers}</span>
+                      <Users className="h-4 w-4 text-secondary" />
+                      <span className="text-secondary">{car.passengers}</span>
                     </div>
                     <div className="flex items-center gap-1">
-                      <Luggage className="h-4 w-4" />
-                      <span>{car.luggage}</span>
+                      <Luggage className="h-4 w-4 text-secondary" />
+                      <span className="text-secondary">{car.luggage}</span>
                     </div>
                     <div className="flex items-center gap-1">
-                      <Briefcase className="h-4 w-4" />
-                      <span>{car.hand_luggage}</span>
+                      <Briefcase className="h-4 w-4 text-secondary" />
+                      <span className="text-secondary">{car.hand_luggage}</span>
                     </div>
                   </div>
 
                   {car.features && car.features.length > 0 && (
-                    <div className="mb-4 flex flex-wrap gap-2">
+                    <div className="mb-4 flex flex-wrap gap-2 bg-primary">
                       {car.features.map((feature, i) => (
                         <span
                           key={i}
@@ -126,7 +126,10 @@ export function FleetSection() {
                     </div>
                   )}
 
-                  <Button variant="outline" className="w-full bg-transparent" onClick={scrollToBooking}>
+                  <Button
+                    className="w-full bg-secondary hover:bg-secondary/80 text-white font-bold shadow-xl hover:scale-105 transition-all"
+                    onClick={scrollToBooking}
+                  >
                     Reservar Este Auto
                   </Button>
                 </div>
