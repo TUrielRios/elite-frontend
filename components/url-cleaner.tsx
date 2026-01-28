@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-export function URLCleaner() {
+function URLCleanerContent() {
     const pathname = usePathname();
     const searchParams = useSearchParams();
 
@@ -47,4 +47,12 @@ export function URLCleaner() {
     }, [searchParams, pathname]);
 
     return null;
+}
+
+export function URLCleaner() {
+    return (
+        <Suspense fallback={null}>
+            <URLCleanerContent />
+        </Suspense>
+    );
 }
