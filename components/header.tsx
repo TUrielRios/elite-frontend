@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
+import { GoogleTranslateSelector } from "@/components/google-translate-selector"
 import { Menu, X, Phone } from "lucide-react"
 import Image from "next/image"
 
@@ -78,8 +79,11 @@ export function Header() {
             </button>
           </nav>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons + Language Selector */}
           <div className="flex items-center gap-3">
+            {/* Language Selector */}
+            <GoogleTranslateSelector isScrolled={isScrolled} />
+
             <a href="https://wa.me/19545580614" target="_blank" rel="noopener noreferrer" className="hidden md:flex">
               <Button size="sm" className="gap-2 bg-secondary text-white hover:bg-secondary/80">
                 <Phone className="h-4 w-4" />
