@@ -86,8 +86,8 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
-                <a href="mailto:info@eliterentmiami.com" className="hover:text-primary">
-                  info@eliterentmiami.com
+                <a href="mailto:eliterentalcar1@gmail.com" className="hover:text-primary">
+                  eliterentalcar1@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">

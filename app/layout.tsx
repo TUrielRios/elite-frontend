@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/elite-logo.png",
-    apple: "/elite-logo.png",
-    shortcut: "/elite-logo.png",
+    icon: "/elite-logo-circular.jpg",
+    apple: "/elite-logo-circular.jpg",
+    shortcut: "/elite-logo-circular.jpg",
   },
 }
 
