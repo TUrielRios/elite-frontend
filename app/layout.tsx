@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     title: "Elite Rent A Car Miami",
     description: "Premium car rental service in Miami",
     type: "website",
+    images: [
+      {
+        url: "/elite-logo-circular.jpg",
+        width: 400,
+        height: 400,
+        alt: "Elite Rent A Car Miami Logo",
+      },
+    ],
   },
   icons: {
     icon: "/elite-logo-circular.jpg",
