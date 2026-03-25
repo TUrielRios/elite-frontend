@@ -91,9 +91,16 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
-                <span>3990 NW 26th Street Miami Fl</span>
-              </li>
+  <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+  <a
+    href="https://maps.app.goo.gl/tD6Qh7yfFBu29ga3A"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-primary"
+  >
+    3990 NW 26th Street Miami Fl
+  </a>
+</li>
             </ul>
           </div>
         </div>
